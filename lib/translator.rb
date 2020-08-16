@@ -19,8 +19,8 @@ def get_english_meaning(file, jmote)
       english_meaning = key
     end
   end
-  english_meaning
   end
+  english_meaning
 end
 
 
