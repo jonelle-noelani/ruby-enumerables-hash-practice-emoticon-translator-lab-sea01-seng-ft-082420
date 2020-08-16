@@ -18,6 +18,7 @@ def get_english_meaning(file, jmote)
         new_emoticons[key][lingo] == jmote ?
         binding.pry
           # english_meaning = key  english_meaning = "Sorry" 
+        true : false
         end
       end
       end
