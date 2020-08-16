@@ -13,7 +13,7 @@ end
 def get_english_meaning(file, emoticon)
   new_emoticons = load_library(file)
   new_emoticons.each do |key,value|
-    if emoticon == new_emoticons[key][:japanese][value][1]
+    if emoticon == "("
     key
   end
 end
