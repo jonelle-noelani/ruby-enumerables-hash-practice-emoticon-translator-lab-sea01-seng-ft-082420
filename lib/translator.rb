@@ -13,7 +13,7 @@ end
 def get_english_meaning(file, jmote)
   new_emoticons = load_library(file)
   new_emoticons.map do |key,value|
-    if new_emoticons[key][value][1] = jmote
+    if new_emoticons[key][value]= jmote
     puts "Got it!"
   end
 end
