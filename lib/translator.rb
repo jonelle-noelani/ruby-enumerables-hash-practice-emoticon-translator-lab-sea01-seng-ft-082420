@@ -12,7 +12,7 @@ end
 
 def get_english_meaning(file, jmote)
   new_emoticons = load_library(file)
-  new_emoticons.map do |key,value|
+  new_emoticons.each_with_object( [] ) do |(key,value), array|
     if value.include? jmote
     puts key
     # value.each do |l_key , mote|
