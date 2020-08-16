@@ -21,6 +21,7 @@ def get_english_meaning(file, jmote)
     # puts "Got it!"
   end
 end
+end
 
 
 def get_japanese_emoticon
