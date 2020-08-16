@@ -20,6 +20,7 @@ def get_english_meaning(file, jmote)
         if ! new_emoticons[key][lingo] == jmote
           english_meaning = "Sorry, that emoticon was not found"
           end
+        end
       end
     end
   english_meaning
