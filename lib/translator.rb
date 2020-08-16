@@ -16,7 +16,7 @@ def get_english_meaning(file, jmote)
     new_emoticons.each do |key,value|
       value.each do |lingo, mote|
         new_emoticons[key][lingo] == jmote ?
-          { english_meaning = key  :  english_meaning = "Sorry, that emoticon was not found" }
+          { english_meaning = key }  :  { english_meaning = "Sorry, that emoticon was not found" }
         # if !new_emoticons[key][lingo] == jmote
         end
           end
