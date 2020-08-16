@@ -20,7 +20,7 @@ def get_english_meaning(file, jmote)
   end
   end
 end
-end
+
 
  # if value.include? jmote
     # puts key
