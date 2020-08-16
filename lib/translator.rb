@@ -21,7 +21,7 @@ def get_english_meaning(file, jmote)
       end
       english_meaning
     end
- end
+ 
 
 
       
