@@ -11,7 +11,7 @@ def load_library(file)
 end
 
 def get_english_meaning(file, jmote)
-  english_meaning = ""
+  english_meaning = "Sorry, that emoticon was not found"
   new_emoticons = load_library(file)
     new_emoticons.each do |key,value|
       value.each do |lingo, mote|
