@@ -15,13 +15,14 @@ def get_english_meaning(file, jmote)
   new_emoticons = load_library(file)
     new_emoticons.each do |key,value|
       value.each do |lingo, mote|
-        new_emoticons[key][lingo] == jmote ?
-           english_meaning = key   :   english_meaning = "Sorry, that emoticon was not found" 
-        # if !new_emoticons[key][lingo] == jmote
+        if new_emoticons[key][lingo] == jmote
+          english_meaning = key
         end
-          end
-          english_meaning
-        end
+      end
+    end
+  english_meaning
+end
+
       
   
 
