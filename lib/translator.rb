@@ -12,9 +12,12 @@ end
 
 def get_english_meaning(file, jmote)
   new_emoticons = load_library(file)
-  new_emoticons.each_with_object( [] ) do |(key,value), array|
-    if value.include? jmote
-    puts key
+  new_emoticons.each_with_object( {} ) do |(key,value), hash|
+    v.each do |lingo, mote|
+      if mote == jmote
+        puts key
+    # if value.include? jmote
+    # puts key
     # value.each do |l_key , mote|
     #   puts mote
     # if value[key] == jmote
