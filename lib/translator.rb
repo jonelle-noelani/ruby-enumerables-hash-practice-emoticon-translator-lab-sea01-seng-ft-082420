@@ -15,7 +15,7 @@ def get_english_meaning(file, jmote)
   new_emoticons = load_library(file)
     new_emoticons.each do |key,value|
       value.each do |lingo, mote|
-        if new_emoticons[key][lingo] == jmote
+        # if new_emoticons[key][lingo] == jmote
           english_meaning = key
         end
       end
