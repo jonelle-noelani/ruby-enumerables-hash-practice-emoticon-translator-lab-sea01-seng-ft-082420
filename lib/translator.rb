@@ -24,23 +24,6 @@ def get_english_meaning(file, jmote)
 end
 
 
-  
- 
-
-
-      
-  
-
-
-
-
- # if value.include? jmote
-    # puts key
-    # value.each do |l_key , mote|
-    #   puts mote
-    # if value[key] == jmote
-    
-
 def get_japanese_emoticon
  
 end
