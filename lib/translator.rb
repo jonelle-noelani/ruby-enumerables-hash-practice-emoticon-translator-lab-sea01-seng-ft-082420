@@ -27,7 +27,6 @@ def get_english_meaning(file, jmote)
         # elsif new_emoticons[key][lingo] != jmote
         #   english_meaning = "Sorry"
         end
-      end
     end
   english_meaning
 end
