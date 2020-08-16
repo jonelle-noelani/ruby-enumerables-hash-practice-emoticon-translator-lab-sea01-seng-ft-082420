@@ -12,13 +12,14 @@ end
 
 def get_english_meaning(file, jmote)
   new_emoticons = load_library(file)
-end
   new_emoticons.each do |key,value|
+    binding.pry
     value.each do |l_key , mote|
       puts mote
     # if value[key] == jmote
     # puts "Got it!"
   end
+end
 end
 
 def get_japanese_emoticon
