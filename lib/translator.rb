@@ -20,9 +20,7 @@ def get_english_meaning(file, jmote)
           (english_meaning = key) : (english_meaning = "Sorry") 
         end
       end
-      english_meaning
-    end
-  end
+      # english_meaning
  
 
 
