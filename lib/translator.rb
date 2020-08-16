@@ -10,8 +10,8 @@ def load_library(file)
   emoticons
 end
 
-def get_english_meaning(YAML, emoticon)
-  new_emoticons = load_library(YAML)
+def get_english_meaning(file, emoticon)
+  new_emoticons = load_library(file)
   new_emoticons.each do |key,value|
     if emoticon == emoticons[key][:japanese][value][1]
     key
