@@ -17,7 +17,7 @@ def get_english_meaning(file, jmote)
       value.each do |lingo, mote|
         if new_emoticons[key][lingo] == jmote
           english_meaning = key
-        else english_meaning = "Sorry"
+        
         end
       end
     end
