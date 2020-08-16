@@ -13,8 +13,8 @@ end
 def get_english_meaning(file, emoticon)
   new_emoticons = load_library(file)
   new_emoticons.each do |key,value|
-    if emoticon == "("
-    key
+    if emoticon == "(Ｔ▽Ｔ)"
+    puts "Got it!"
   end
 end
 end
