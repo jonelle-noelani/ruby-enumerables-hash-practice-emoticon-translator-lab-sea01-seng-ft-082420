@@ -18,6 +18,7 @@ def get_japanese_emoticon(file, jmote)
     if emoticons[key][:japanese][value][1] == jmote
     key
   end
+  end
 end
 end
 
