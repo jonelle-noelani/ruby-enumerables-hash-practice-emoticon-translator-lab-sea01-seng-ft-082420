@@ -18,8 +18,8 @@ def get_english_meaning(file, jmote)
     if new_emoticons[key][lingo] == jmote
       english_meaning = key
     end
+    english_meaning
   end
-  english_meaning
   end
 end
 
