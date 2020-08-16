@@ -11,13 +11,10 @@ def load_library(file)
 end
 
 def get_japanese_emoticon(file, jmote)
-  emoticons = YAML.load_file(file)
-  new_emoticons = emoticons.each do |key, value|
-    emoticons[key] = { :english => value[0], :japanese => value[1] } 
+  new_emoticons = load_library(file)
   new_emoticons.each do |key,value|
     if emoticons[key][:japanese][value][1] == jmote
     key
-  end
   end
 end
 end
