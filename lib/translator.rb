@@ -15,6 +15,7 @@ def get_english_meaning(file, jmote)
   new_emoticons.each do |key,value|
     value.each do |lingo, mote|
     if new_emoticons[key][lingo] == jmote
+      binding.pry 
       puts key 
     end
   end
