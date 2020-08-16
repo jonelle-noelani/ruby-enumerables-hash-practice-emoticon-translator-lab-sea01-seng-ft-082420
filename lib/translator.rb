@@ -29,7 +29,7 @@ def get_japanese_emoticon(file, emote)
  new_emoticons = load_library(file)
     new_emoticons.each do |key,value|
       value.each do |lingo, mote|
-        if new_emoticons[key][lingo] = emote
+        if new_emoticons[key][lingo] == emote
           translation = new_emoticons[key][:japanese]
       end
     end
