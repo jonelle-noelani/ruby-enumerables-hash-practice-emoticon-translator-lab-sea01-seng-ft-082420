@@ -10,7 +10,7 @@ def load_library(file)
   emoticons
 end
 
-def get_japanese_emoticon(file, jmote)
+def get_japanese_emoticon
   new_emoticons = load_library(file)
   new_emoticons.each do |key,value|
     if jmote == emoticons[key][:japanese][value][1]
@@ -19,6 +19,6 @@ def get_japanese_emoticon(file, jmote)
 end
 end
 
-def get_english_meaning
+def get_english_meaning 
   # code goes here
 end
