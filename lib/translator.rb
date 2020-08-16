@@ -20,7 +20,6 @@ end
     # puts "Got it!"
   end
 end
-end
 
 def get_japanese_emoticon
  
