@@ -25,6 +25,7 @@ end
 
 
 def get_japanese_emoticon(file, emote)
+ translation = "No Japanese Version"
  new_emoticons = load_library(file)
     new_emoticons.each do |key,value|
       value.each do |lingo, mote|
