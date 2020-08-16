@@ -18,7 +18,7 @@ def get_english_meaning(file, jmote)
         if new_emoticons[key][lingo] == jmote
           english_meaning = key
         end
-        if ! new_emoticons[key][lingo] == jmote
+        if new_emoticons[key][lingo] != jmote
           english_meaning = "Sorry"
         end
       end
