@@ -17,7 +17,7 @@ def get_english_meaning(file, jmote)
       value.each do |lingo, mote|
         new_emoticons[key][lingo] == jmote ?
         binding.pry
-          english_meaning = key : english_meaning = "Sorry" 
+          english_meaning = key  english_meaning = "Sorry" 
         end
       end
       # english_meaning
