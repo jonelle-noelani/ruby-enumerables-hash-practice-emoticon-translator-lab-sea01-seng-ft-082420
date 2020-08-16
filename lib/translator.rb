@@ -33,6 +33,6 @@ def get_japanese_emoticon(file, emote)
           translation = new_emoticons[key][:japanese]
       end
     end
-    translation
   end
+  translation
 end
